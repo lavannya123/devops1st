@@ -8,6 +8,6 @@
                   state: absent
          - name:  start/stop tree 
            service:
-                  name: wget
+                  name: tree
                   state: started
         
