@@ -6,7 +6,7 @@
            apt:
                   name: tree
                   state: absent
-         - name: i want to start/stop tree on ubuntu node
+         - name:  start/stop tree 
            service:
                   name: wget
                   state: started
